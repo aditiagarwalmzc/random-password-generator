@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #121212;
+} 
+
+.inputBox {
+    position: relative;
+    width: 450px;
+}
+
+h2 {
+    width: 150%;
+    font-size: 50px;
+    color: #BB86FC;
+    margin: -100px;
+}
+
+.inputBox input {
+    position: relative;
+    width: 75%;
+    height: 60px;
+    border: none;
+    margin: 150px 0px 20px;
+    background: transparent;
+    outline: none;
+    padding: 0 20px;
+    font-size: 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: rgb(235, 235, 235);
+    box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.05),
+                inset 2px 2px 10px rgba(255, 255, 255, 1),
+                inset -2px -2px 10px rgba(0, 0, 0, 0.05),
+                2px 2px 10px rgba(255, 255, 255, 1)
+
+}
+
+.inputBox #copy {
+    border: none;
+    position: relative;
+    cursor: pointer;
+    height: 60px;
+    width: 20%;
+    color: #333;
+    background: #ff759e;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 25%;
+}
+
+.inputBox #copy:hover {
+    background: #ff0266;
+}
+
+.inputBox #generateButton {
+    position: relative;
+    cursor: pointer;
+    color: #333;
+    background: #03DAC5;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+
+.inputBox #generateButton:hover {
+    background: #27abb0;
+}
