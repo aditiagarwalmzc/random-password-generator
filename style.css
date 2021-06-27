@@ -32,11 +32,12 @@ h2 {
 
 .inputBox input {
     position: relative;
+    left: 11%;
     width: 55%;
     height: 60px;
     border: solid;
-    margin: 170px 80px 20px;
-    margin-right: 10px;
+    margin: 170px 0px 20px;
+    margin-right: 12%;
     background: transparent;
     outline: none;
     padding: 0 10px;
@@ -71,6 +72,7 @@ h2 {
 
 .inputBox #generateButton {
     position: relative;
+    left: 11%;
     cursor: pointer;
     color: #333;
     background: #03DAC5;
@@ -78,10 +80,12 @@ h2 {
     display: inline-block;
     padding: 10px 15px;
     border-radius: 8px;
-    margin-left: 80px;
+    
 }
 
 
 .inputBox #generateButton:hover {
     background: #27abb0;
 }
+
+
