@@ -18,11 +18,13 @@ body {
 
 .inputBox {
     position: relative;
-    width: 450px;
+    width: 750px;
 }
 
 h2 {
-    width: 150%;
+    position: absolute;
+    right: 0px;
+    width: 90%;
     font-size: 50px;
     color: #BB86FC;
     margin: -100px;
@@ -30,10 +32,10 @@ h2 {
 
 .inputBox input {
     position: relative;
-    width: 75%;
+    width: 55%;
     height: 60px;
     border: none;
-    margin: 150px 0px 20px;
+    margin: 150px 100px 20px;
     background: transparent;
     outline: none;
     padding: 0 20px;
@@ -53,17 +55,17 @@ h2 {
     position: relative;
     cursor: pointer;
     height: 60px;
-    width: 20%;
+    width: 15%;
     color: #333;
     background: #ff759e;
     font-size: 24px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: -90px;
     border-radius: 25%;
 }
 
 .inputBox #copy:hover {
-    background: #ff0266;
+    background: #ff5689;
 }
 
 .inputBox #generateButton {
@@ -75,6 +77,7 @@ h2 {
     display: inline-block;
     padding: 10px 15px;
     border-radius: 8px;
+    margin-left: 100px;
 }
 
 
