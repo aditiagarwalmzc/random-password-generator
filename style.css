@@ -27,15 +27,16 @@ h2 {
     width: 90%;
     font-size: 50px;
     color: #BB86FC;
-    margin: -100px;
+    
 }
 
 .inputBox input {
     position: relative;
     width: 55%;
     height: 60px;
-    border: none;
+    border: solid;
     margin: 150px 100px 20px;
+    margin-right: 10px;
     background: transparent;
     outline: none;
     padding: 0 20px;
@@ -60,7 +61,7 @@ h2 {
     background: #ff759e;
     font-size: 24px;
     display: inline-block;
-    margin-left: -90px;
+    
     border-radius: 25%;
 }
 
